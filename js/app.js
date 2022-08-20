@@ -58,7 +58,7 @@ document.getElementById('calculator').addEventListener('click', function (event)
         }
     }
     else {
-        const newTypedNumber = previousTypedNumber + number;
+        const newTypedNumber = previousTypedNumber;
         typedNumberField.value = newTypedNumber;
     }
 })
